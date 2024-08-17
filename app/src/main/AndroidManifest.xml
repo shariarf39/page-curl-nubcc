@@ -13,6 +13,9 @@
         android:theme="@style/Theme.PageCurlNub"
         tools:targetApi="31">
         <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

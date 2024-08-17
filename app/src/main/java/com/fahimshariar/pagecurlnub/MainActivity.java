@@ -1,5 +1,6 @@
 package com.fahimshariar.pagecurlnub;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -7,22 +8,33 @@ import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    private CurlView mCurlView;
+    private ZoomableCurlView mCurlView;
+    private ImageView profile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        profile = findViewById(R.id.profile);
         mCurlView = findViewById(R.id.curl);
         mCurlView.setPageProvider(new PageProvider());
         mCurlView.setSizeChangedObserver(new SizeChangedObserver());
         mCurlView.setBackgroundColor(0xFF202830);
+
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, profile.class));
+            }
+        });
 
         if (savedInstanceState != null) {
             int index = savedInstanceState.getInt("currentIndex", 0);
