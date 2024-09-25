@@ -19,15 +19,35 @@
         android:layout_marginRight="15dp"
         app:tint="#00BCD4"/>
 
-    <ImageView
+    <LinearLayout
         android:id="@+id/video"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:src="@drawable/baseline_ondemand_video_24"
-        android:layout_alignParentLeft="true"
-        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
         android:layout_marginLeft="15dp"
-        app:tint="#00BCD4"/>
+        >
+        <ImageView
+
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/baseline_ondemand_video_24"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            app:tint="#03A9F4"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Videos"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="#03A9F4"
+            />
+    </LinearLayout>
+
+
 
    <!-- FloatingActionButtons for zoom in and zoom out -->
      <com.google.android.material.floatingactionbutton.FloatingActionButton

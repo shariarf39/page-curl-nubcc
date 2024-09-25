@@ -12,6 +12,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -21,7 +22,8 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 public class MainActivity extends AppCompatActivity {
 
     private CurlView mCurlView;
-    private ImageView profile, video;
+    private ImageView profile;
+    LinearLayout video;
 
     private FloatingActionButton zoomInButton, zoomOutButton;
     private float scaleFactor = 1.0f;
