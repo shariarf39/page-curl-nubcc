@@ -1,23 +1,83 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    >
+    android:background="@color/white">
 
-    <com.fahimshariar.pagecurlnub.ZoomableCurlView
+    <com.fahimshariar.pagecurlnub.CurlView
         android:id="@+id/curl"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-
     <ImageView
         android:id="@+id/profile"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
         android:src="@drawable/baseline_manage_accounts_24"
         android:layout_alignParentRight="true"
         android:layout_marginTop="5dp"
-        android:layout_marginRight="5dp"
+        android:layout_marginRight="15dp"
+        app:tint="#00BCD4"/>
+
+    <ImageView
+        android:id="@+id/video"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/baseline_ondemand_video_24"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        app:tint="#00BCD4"/>
+
+   <!-- FloatingActionButtons for zoom in and zoom out -->
+     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/zoom_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/baseline_zoom_in_24"
+
+        android:contentDescription="Zoom In" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/zoom_out_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/zoom_in_button"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/baseline_zoom_out_24"
+
+        android:contentDescription="Zoom Out" />
+
+    <!-- Panning Buttons -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/pan_left_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/baseline_keyboard_double_arrow_left_24"
+        android:backgroundTint="#2196F3"
+        android:contentDescription="Pan Left" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/pan_right_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/pan_left_button"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/baseline_keyboard_double_arrow_right_24"
+        android:contentDescription="Pan Right"
+        android:backgroundTint="#2196F3"
         />
 
 </RelativeLayout>
