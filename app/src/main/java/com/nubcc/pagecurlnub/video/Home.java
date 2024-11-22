@@ -1,4 +1,4 @@
-package com.fahimshariar.pagecurlnub.video;
+package com.nubcc.pagecurlnub.video;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,26 +15,19 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.constants.ScaleTypes;
 import com.denzcoskun.imageslider.models.SlideModel;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
 
 
-import com.fahimshariar.pagecurlnub.MainActivity;
-import com.fahimshariar.pagecurlnub.R;
+import com.nubcc.pagecurlnub.MainActivity;
+import com.nubcc.pagecurlnub.R;
 
 public class Home extends AppCompatActivity {
 

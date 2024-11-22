@@ -1,4 +1,4 @@
-package com.fahimshariar.pagecurlnub.video;
+package com.nubcc.pagecurlnub.video;
 
 import android.content.Context;
 import android.util.AttributeSet;

@@ -1,4 +1,4 @@
-package com.fahimshariar.pagecurlnub;
+package com.nubcc.pagecurlnub;
 
 import org.junit.Test;
 

@@ -1,9 +1,8 @@
-package com.fahimshariar.pagecurlnub;
+package com.nubcc.pagecurlnub;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
-import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
@@ -16,7 +15,7 @@ import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.fahimshariar.pagecurlnub.video.Home;
+import com.nubcc.pagecurlnub.video.Home;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class MainActivity extends AppCompatActivity {
@@ -33,9 +32,9 @@ public class MainActivity extends AppCompatActivity {
 
     private FloatingActionButton panLeftButton, panRightButton;
     private float translateX = 0f;
-    private final float PAN_STEP = 50f;  // Amount to pan with each button press
+    private final float PAN_STEP = 50f;
 
-    private MediaPlayer pageFlipSound; // MediaPlayer for sound
+    private MediaPlayer pageFlipSound;
 
 
     @Override

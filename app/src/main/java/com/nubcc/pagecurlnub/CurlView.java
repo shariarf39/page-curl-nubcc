@@ -14,7 +14,7 @@
    limitations under the License.
  */
 
-package com.fahimshariar.pagecurlnub;
+package com.nubcc.pagecurlnub;
 
 import android.content.Context;
 import android.graphics.PointF;

@@ -17,7 +17,7 @@
         android:layout_height="120dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:src="@drawable/dev"
+        android:src="@drawable/baseline_manage_accounts_24"
         android:contentDescription="Profile Image"
         android:background="@drawable/profile_image_border"
         android:scaleType="centerCrop"
@@ -30,7 +30,7 @@
         android:id="@+id/profile_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MD Fahim Shariar"
+        android:text="NUB Computer Club"
         android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="@color/black"
@@ -97,10 +97,23 @@
             android:id="@+id/profile_email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="shariarfahim21@gmail.com"
+            android:text="nubcomputerclub@nub.ac.bd"
             android:textSize="16sp"
             android:textColor="@color/black"
             android:layout_marginStart="8dp" />
     </LinearLayout>
+    <TextView
+        android:id="@+id/policy"
+        android:layout_below="@+id/profile_contact_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@color/background_color"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Privacy Policy"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_marginStart="8dp" />
 
 </RelativeLayout>

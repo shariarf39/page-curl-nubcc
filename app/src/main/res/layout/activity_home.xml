@@ -67,7 +67,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <com.fahimshariar.pagecurlnub.video.ExpandableHeightGridView
+                <com.nubcc.pagecurlnub.video.ExpandableHeightGridView
                     android:id="@+id/mainGrid"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

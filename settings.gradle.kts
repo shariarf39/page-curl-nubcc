@@ -28,3 +28,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "page Curl Nub"
 include(":app")
+include(":curlpage")
+include(":Curl Page")

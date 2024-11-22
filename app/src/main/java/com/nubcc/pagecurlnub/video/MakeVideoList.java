@@ -1,7 +1,7 @@
 
-package com.fahimshariar.pagecurlnub.video;
+package com.nubcc.pagecurlnub.video;
 
-import com.fahimshariar.pagecurlnub.R;
+import com.nubcc.pagecurlnub.R;
 
 import java.util.ArrayList;
 import java.util.HashMap;

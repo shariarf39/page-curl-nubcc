@@ -14,7 +14,7 @@
    limitations under the License.
  */
 
-package com.fahimshariar.pagecurlnub;
+package com.nubcc.pagecurlnub;
 
 import android.graphics.Bitmap;
 import android.graphics.Color;

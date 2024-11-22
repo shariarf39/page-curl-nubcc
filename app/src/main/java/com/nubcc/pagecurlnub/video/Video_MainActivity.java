@@ -1,11 +1,11 @@
-package com.fahimshariar.pagecurlnub.video;
+package com.nubcc.pagecurlnub.video;
 
-import static com.fahimshariar.pagecurlnub.video.MasterJubaYoutube.BUFFERING;
-import static com.fahimshariar.pagecurlnub.video.MasterJubaYoutube.CUED;
-import static com.fahimshariar.pagecurlnub.video.MasterJubaYoutube.ENDED;
-import static com.fahimshariar.pagecurlnub.video.MasterJubaYoutube.PAUSED;
-import static com.fahimshariar.pagecurlnub.video.MasterJubaYoutube.PLAYING;
-import static com.fahimshariar.pagecurlnub.video.MasterJubaYoutube.UNSTARTED;
+import static com.nubcc.pagecurlnub.video.MasterJubaYoutube.BUFFERING;
+import static com.nubcc.pagecurlnub.video.MasterJubaYoutube.CUED;
+import static com.nubcc.pagecurlnub.video.MasterJubaYoutube.ENDED;
+import static com.nubcc.pagecurlnub.video.MasterJubaYoutube.PAUSED;
+import static com.nubcc.pagecurlnub.video.MasterJubaYoutube.PLAYING;
+import static com.nubcc.pagecurlnub.video.MasterJubaYoutube.UNSTARTED;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -36,13 +36,10 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import com.airbnb.lottie.LottieAnimationView;
-import com.fahimshariar.pagecurlnub.MainActivity;
-import com.fahimshariar.pagecurlnub.R;
+import com.nubcc.pagecurlnub.MainActivity;
+import com.nubcc.pagecurlnub.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

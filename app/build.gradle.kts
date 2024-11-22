@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.fahimshariar.pagecurlnub"
+    namespace = "com.nubcc.pagecurlnub"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.fahimshariar.pagecurlnub"
+        applicationId = "com.nubcc.pagecurlnub"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -42,6 +42,6 @@ dependencies {
     implementation("com.github.denzcoskun:ImageSlideshow:0.1.0")
     implementation("com.github.fornewid:neumorphism:0.2.1")
     implementation("com.squareup.picasso:picasso:2.71828")
-    implementation("com.airbnb.android:lottie:4.2.0") // Check for the latest version
+    implementation("com.airbnb.android:lottie:4.2.0")
 
 }
