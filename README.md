@@ -30,7 +30,7 @@ Creating documentation for your `ZoomableCurlView` project on GitHub will help o
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/shariarf39/page-curl.git
+git clone https://github.com/shariarf39/page-curl-nubcc.git
 ```
 
 ### 2. Add to Your Project
